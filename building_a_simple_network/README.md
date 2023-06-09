@@ -2,6 +2,8 @@
 
 Network building exercise
 
+![SimpleNetwork](https://github.com/Nomade73/BecodeBrussels/assets/23107011/2c9556a1-0094-47cf-b977-a9b8fc7efbdc)
+
 ## Components
 ### For the local network
 
@@ -10,6 +12,7 @@ Network building exercise
 * 3 PCs
 
 ### To simulate internet access
+
 
 * 1 external router
 * 1 web server
