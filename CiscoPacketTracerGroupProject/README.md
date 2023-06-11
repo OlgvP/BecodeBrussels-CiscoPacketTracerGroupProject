@@ -1,4 +1,4 @@
-#Project ACOG
+# Project ACOG
 This network building exercise was completed as a group project named Project ACOG by our team. We successfully presented our project to the class and explained step by step how we set up our network.
 
 ## Contributors
