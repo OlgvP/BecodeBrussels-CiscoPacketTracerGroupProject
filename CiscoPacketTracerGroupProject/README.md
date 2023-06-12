@@ -144,7 +144,17 @@ Test result by opening a web browser page of a random PC and typing “web”:
 
 Success! Don’t mind the text as we used the FTP server to act as a web server, but just for this test.
 
-# SSH
+### SSH
+
+You can enable SSH on a Cisco device by entering the global configuration mode using the command "configure terminal".
+
+Generate an RSA key pair for SSH authentication using the "crypto key generate rsa" command. Choose the key size (e.g., 1024 or 2048 bits) and confirm the key generation.
+
+Configure the device's hostname using the "hostname" command. This step is necessary for SSH authentication.
+
+Create a user account with privilege level and password using the "username" command.
+
+Finally, enable SSH login using the "line vty" command to access the virtual terminal lines, and specify the transport input as SSH.
 
 
 // More to add
