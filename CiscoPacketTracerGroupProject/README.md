@@ -6,7 +6,7 @@ This network building exercise was completed as a group project named Project AC
 * Cedric Lambin
 * Gustavo 
 * Olga
-* Alenjandro
+* @Alejandr0-1
 
 ## Components
 
