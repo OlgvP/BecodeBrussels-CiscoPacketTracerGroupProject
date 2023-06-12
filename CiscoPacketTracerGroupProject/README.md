@@ -3,10 +3,10 @@ This network building exercise was completed as a group project named Project AC
 
 ## Contributors
 
-* Cedric Lambin
+* Nomade73
 * Gustavo 
 * Olga
-* @Alejandr0-1
+* Alejandr0-1
 
 ## Components
 
