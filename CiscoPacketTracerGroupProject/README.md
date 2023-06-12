@@ -157,4 +157,44 @@ Create a user account with privilege level and password using the "username" com
 Finally, enable SSH login using the "line vty" command to access the virtual terminal lines, and specify the transport input as SSH.
 
 
-// More to add
+// More to add Its Olga:
+# Building VLAN's
+# Step 1: **Determine VLAN Requirements**
+
+As a first step in our project we had to identified the purpose of VLANs, 
+such as separating departments, isolating traffic, or enhancing security.
+
+# Step 2: **Plan the VLAN Configuration**
+
+We determineted the VLAN IDs (VLAN tags) for each VLAN. These are numeric identifiers used to identify VLANs.
+After we decided whether to use static VLANs (manually assigned) or dynamic VLANs (assigned based on protocols like VLAN Trunking Protocol - VTP).
+In the end of this step we planned the IP addressing scheme for each VLAN if it included routing.
+
+# Step 3: **Configure Switch Ports**
+
+For configure switch ports we accessed the management interface of the network switch (via web interface or command-line interface).
+For each VLAN, we configureted the switch ports to be members of that VLAN.
+We assined the appropriate VLAN ID to each port.
+The last things to do in this step was:
+-Set the port mode to access mode for devices connecting to the VLAN.
+-Set the port mode to trunk mode for interconnecting switches or routers.
+
+# Step 4: **Create VLANs on the Switch**
+
+We had to again access the switch's management interface and then 
+navigate to the VLAN configuration section.
+Next step was create VLANs using the desired VLAN IDs from the earlier plan
+and assign a name to each VLAN for identification.
+
+# Step 5: **Configure VLAN Interfaces (Optional)**
+
+For routing between VLANs, we configureted VLAN interfaces on a Layer 3 switch or a router and
+assigned IP addresses to the VLAN interfaces, following the IP addressing scheme you planned.
+
+# Step 6: **Test and Verify**
+
+At the end we connected devices to the appropriate switch ports assigned to each VLAN.
+Is important to verify connectivity and ensure that devices within the same VLAN 
+can communicate while being isolated from devices in other VLANs.
+
+*Test inter-VLAN routing if configured.*
